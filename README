@@ -1,0 +1,10 @@
+Grades
+
+Class that implements a letter-based grading system (A+, A, A-, ...), and is able to naturally sort by the value of grade (i.e., A+ > A > A-).
+
+Usage:
+
+a_plus = Grade.new("A+")
+a = Grade.new("A")
+a_plus > a # should return true
+[a_plus, a].sort # should return [a, a_plus]
