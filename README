@@ -3,6 +3,7 @@ Grades
 Class that implements a letter-based grading system (A+, A, A-, ...), and is able to naturally sort by the value of grade (i.e., A+ > A > A-).
 
 Usage:
+require "./lib/grade"
 
 a_plus = Grade.new("A+")
 a = Grade.new("A")
